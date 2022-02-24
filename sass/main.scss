@@ -1,0 +1,58 @@
+@import './config';
+@import './resets';
+@import './variables';
+@import './card';
+
+main {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 98vh;
+  overflow: hidden;
+}
+
+.section-center {
+  width: 100%;
+  max-width: $desktopLayout;
+  padding: 3rem;
+  overflow: hidden;
+}
+
+.pattern-divider {
+  margin: 2rem auto;
+  height: 17px;
+  width: 90%;
+  background: url('/images/pattern-divider-mobile.svg') center/cover;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.attribution a {
+  color: $neonGreen;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@include desktop {
+  .card {
+    max-width: 30rem;
+    width: 100%;
+
+    p {
+      max-width: 30rem;
+      font-size: 1.9rem;
+    }
+  }
+
+  .pattern-divider {
+    background: url('/images/pattern-divider-desktop.svg') center/cover;
+    margin: 3rem auto;
+  }
+  .attribution {
+    font-size: 1rem;
+  }
+}
