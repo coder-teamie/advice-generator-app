@@ -6,6 +6,36 @@ body {
   background: hsl(220, 28%, 15%);
 }
 
+.btn {
+  background: transparent;
+  border: none;
+  display: grid;
+  cursor: pointer;
+  transition: all 3s linear;
+}
+
+.animate {
+  animation: move 3s linear 0.2s 1;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 @mixin desktop {
   @media screen and (min-width: 1440px) {
     @content;
