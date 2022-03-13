@@ -18,7 +18,6 @@ window.addEventListener('DOMContentLoaded', async function () {
 });
 
 btn.addEventListener('click', async () => {
-  btn.classList.add('animate');
   try {
     const response = await fetch(URL);
     const data = await response.json();
