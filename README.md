@@ -98,6 +98,6 @@ export default get;
 
 ## Author
 
-- Instagram - [Oluwatimilehin](https://www.instagram.com/_teamie_/)
+- Instagram - [Oluwatimilehin](https://www.instagram.com/tea__scripts/)
 - Frontend Mentor - [@coder-teamie](https://www.frontendmentor.io/profile/coder-teamie)
-- Twitter - [@teamie\_\_](https://twitter.com/teamie__)
+- Twitter - [@teamie\_\_](https://twitter.com/tea__scripts)
